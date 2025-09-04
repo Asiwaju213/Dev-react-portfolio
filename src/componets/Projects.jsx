@@ -1,4 +1,4 @@
-import { ArrowRight, Github } from "lucide-react";
+import { ArrowRight, Github, Link } from "lucide-react";
 
 
 const projects = [
@@ -22,6 +22,13 @@ const projects = [
         image: "/projects/img-3.png",
         tags: ["VS Code","HTML","CSS"]
     },
+    {
+        id: 1,
+        title: "Todo-List",
+        Description: "A simple Todo-List page built to improve my knowledge in react.js",
+        image: "/projects/img-6.png",
+        tags: ["VS Code","React", "TailwindCSS"],
+    }
 ]
 
 export const ProjectsSection = () => {
@@ -62,8 +69,8 @@ export const ProjectsSection = () => {
                             </p>
                             <div className="flex justify-betwen items-center">
                                     <div className="flex space-x-3">
-                                        <a target="_blank">
-                                            <Github size={20} />
+                                        <a href="https://todo-list-sigma-woad.vercel.app/">
+                                            <Link size={20} />
                                         </a>
 
                                     </div>
