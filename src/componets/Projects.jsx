@@ -28,6 +28,7 @@ const projects = [
         Description: "A simple Todo-List page built to improve my knowledge in react.js",
         image: "/projects/img-6.png",
         tags: ["VS Code","React", "TailwindCSS"],
+        link: "https://todo-list-sigma-woad.vercel.app/"
     }
 ]
 
@@ -69,7 +70,7 @@ export const ProjectsSection = () => {
                             </p>
                             <div className="flex justify-betwen items-center">
                                     <div className="flex space-x-3">
-                                        <a href="https://todo-list-sigma-woad.vercel.app/">
+                                        <a href={project.link} target="_blank" rel="noopener noreferrer">
                                             <Link size={20} />
                                         </a>
 
