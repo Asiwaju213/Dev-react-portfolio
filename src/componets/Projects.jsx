@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Link } from "lucide-react";
+import { ArrowRight, Github, GithubIcon, Link } from "lucide-react";
 
 
 const projects = [
@@ -8,6 +8,7 @@ const projects = [
         Description: "This is a swep project built for my department",
         image: "/projects/img-5.png",
         tags: ["VS Code","React", "TailwindCSS"],
+        github: "https://github.com/Asiwaju213"
     },
     {
         id: 1,
@@ -15,12 +16,14 @@ const projects = [
         Description: "A Rock, Paper, Scissors game built just for learning and fun",
         image: "/projects/img-4.png",
         tags: ["VS Code","JavaScript", "Tailwind"],
+        github: "https://github.com/Asiwaju213"
     },
     {
         id: 1,
         Description: "An e-commerce clothing brand built to test my skills in HTML and CSS",
         image: "/projects/img-3.png",
-        tags: ["VS Code","HTML","CSS"]
+        tags: ["VS Code","HTML","CSS"],
+        github: "https://github.com/Asiwaju213"
     },
     {
         id: 1,
@@ -28,7 +31,8 @@ const projects = [
         Description: "A simple Todo-List page built to improve my knowledge in react.js",
         image: "/projects/img-6.png",
         tags: ["VS Code","React", "TailwindCSS"],
-        link: "https://todo-list-sigma-woad.vercel.app/"
+        link: "https://todo-list-sigma-woad.vercel.app/",
+        github: "https://github.com/Asiwaju213"
     }
 ]
 
@@ -72,6 +76,9 @@ export const ProjectsSection = () => {
                                     <div className="flex space-x-3">
                                         <a href={project.link} target="_blank" rel="noopener noreferrer">
                                             <Link size={20} />
+                                        </a>
+                                        <a href={project.github} target="_blank" rel="noopener noreferrer">
+                                            <Github size={20} />
                                         </a>
 
                                     </div>
