@@ -33,6 +33,15 @@ const projects = [
         tags: ["VS Code","React", "TailwindCSS"],
         link: "https://todo-list-sigma-woad.vercel.app/",
         github: "https://github.com/Asiwaju213"
+    },
+    {
+        id: 1,
+        title: "Weather App",
+        Description: "A simple webite to check the weather of any city in the world",
+        image: "/projects/project-7.png",
+        tags: ["VS Code","JavaScript", "TailwindCSS"],
+        link: "https://dev-weather-app-x2sa.vercel.app/",
+        github: "https://github.com/Asiwaju213"
     }
 ]
 
