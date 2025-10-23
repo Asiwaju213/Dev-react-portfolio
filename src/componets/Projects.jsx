@@ -4,18 +4,20 @@ import { ArrowRight, Github, GithubIcon, Link } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "Swep Project",
-        Description: "This is a swep project built for my department",
-        image: "/projects/img-5.png",
-        tags: ["VS Code","React", "TailwindCSS"],
+        title: "Profile Card",
+        Description: "My personal profile card built with HTML, CSS and JavaScript. It contain more information about myself",
+        image: "/projects/img-8.png",
+        tags: ["VS Code","HTML", "CSS", "JavaScript"],
+        link: "https://dev-profile-card-three.vercel.app/",
         github: "https://github.com/Asiwaju213"
     },
     {
         id: 1,
-        title: "Game",
-        Description: "A Rock, Paper, Scissors game built just for learning and fun",
-        image: "/projects/img-4.png",
-        tags: ["VS Code","JavaScript", "Tailwind"],
+        title: "Contact us page",
+        Description: "A contact us multipage that allow users to move to the about me page after a successful form validation",
+        image: "/projects/img-9.png",
+        tags: ["VS Code","JavaScript", "HTML", "CSS"],
+        link: "https://devcode-contact-page.netlify.app/",
         github: "https://github.com/Asiwaju213"
     },
     {
@@ -39,7 +41,7 @@ const projects = [
         title: "Weather App",
         Description: "A simple webite to check the weather of any city in the world",
         image: "/projects/project-7.png",
-        tags: ["VS Code","JavaScript", "TailwindCSS"],
+        tags: ["VS Code","HTML","JavaScript", "TailwindCSS"],
         link: "https://dev-weather-app-x2sa.vercel.app/",
         github: "https://github.com/Asiwaju213"
     }
@@ -78,6 +80,7 @@ export const ProjectsSection = () => {
                             <h3 className="text-xl font-semibold mb-1">
                                 {project.title}
                             </h3>
+                            <hr />
                             <p className="text-muted-foreground text-sm mb-4">
                                 {project.Description}
                             </p>
