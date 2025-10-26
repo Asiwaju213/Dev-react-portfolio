@@ -14,7 +14,7 @@ const projects = [
     {
         id: 1,
         title: "Contact us page",
-        Description: "A contact us multipage that allow users to move to the about me page after a successful form validation",
+        Description: "A simple contact us page built with HTML, CSS and JavaScript where users can move to the next page to check about us after a sucessful form validation",
         image: "/projects/img-9.png",
         tags: ["VS Code","JavaScript", "HTML", "CSS"],
         link: "https://devcode-contact-page.netlify.app/",
@@ -22,24 +22,26 @@ const projects = [
     },
     {
         id: 1,
-        Description: "An e-commerce clothing brand built to test my skills in HTML and CSS",
-        image: "/projects/img-3.png",
-        tags: ["VS Code","HTML","CSS"],
+        title: "Ticketing System",
+        Description: "A simple ticketing system that allow users to create, update and delete tickets",
+        image: "/projects/img-10.png",
+        tags: ["VS Code","TypeScript","TailwindCSS", "React"],
+        link: "https://dev-ticketing-system.netlify.app/",
         github: "https://github.com/Asiwaju213"
     },
     {
         id: 1,
         title: "Todo-List",
-        Description: "A simple Todo-List page built to improve my knowledge in react.js",
+        Description: "A simple todo list application that allow users to add, delete and mark tasks as completed",
         image: "/projects/img-6.png",
-        tags: ["VS Code","React", "TailwindCSS"],
+        tags: ["VS Code","React", "JavaScript", "TailwindCSS"],
         link: "https://todo-list-sigma-woad.vercel.app/",
         github: "https://github.com/Asiwaju213"
     },
     {
         id: 1,
         title: "Weather App",
-        Description: "A simple webite to check the weather of any city in the world",
+        Description: "A weather application that provides real-time weather information for any location",
         image: "/projects/project-7.png",
         tags: ["VS Code","HTML","JavaScript", "TailwindCSS"],
         link: "https://dev-weather-app-x2sa.vercel.app/",
