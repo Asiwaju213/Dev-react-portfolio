@@ -26,7 +26,7 @@ const projects = [
         Description: "A simple ticketing system that allow users to create, update and delete tickets",
         image: "/projects/img-10.png",
         tags: ["VS Code","TypeScript","TailwindCSS", "React"],
-        link: "https://dev-ticketing-system.netlify.app/",
+        link: "https://dev-react-ticketing.vercel.app/",
         github: "https://github.com/Asiwaju213"
     },
     {
